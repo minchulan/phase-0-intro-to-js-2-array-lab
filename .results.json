@@ -1,0 +1,48 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2022-08-01T10:15:15.807Z",
+    "end": "2022-08-01T10:15:15.972Z",
+    "duration": 165
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "cats is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:4:14)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "cats is not defined"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "fullTitle": "index.js Array functions \"before each\" hook for \"appends a cat to the end of the cats array\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: cats is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "cats is not defined"
+      }
+    }
+  ],
+  "passes": []
+}

@@ -1,4 +1,4 @@
-describe('index.js', function () {
+describe('index.js', function (destructivelyAppendCat) {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
       expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
